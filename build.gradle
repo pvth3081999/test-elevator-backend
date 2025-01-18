@@ -40,6 +40,9 @@ tasks.named('test') {
 }
 
 bootJar {
+	archiveBaseName = 'backend'
+	version = '0.0.1-SNAPSHOT'
+	mainClass = 'com.backend.test.BackendApplication'
 	manifest {
 		attributes(
 				'Start-Class': 'com.backend.test.BackendApplication'
