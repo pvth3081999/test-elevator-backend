@@ -42,7 +42,7 @@ tasks.named('test') {
 bootJar {
 	manifest {
 		attributes(
-				'Main-Class': 'com.backend.test'
+				'Start-Class': 'com.backend.test.BackendApplication'
 		)
 	}
 }
